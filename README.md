@@ -1,16 +1,51 @@
-# app
+# flutter-initial-project
 
-A new Flutter project.
+Flutter の雛形プロジェクト
+
+## 説明
+
+- flutterバージョン管理：fvm
+- 環境分け：dart-define-from-file
+- linter：未設定
+- 状態管理パッケージ：未設定
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1. プロジェクト名の変更
 
-A few resources to get you started if this is your first Flutter project:
+    クローン後にプロジェクト名を変更
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. フォルダの整理
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    不要なフォルダがあれば削除
+    例）linux、macos、web、windows
+        ※このあたりの事前設定はしてないので、残す場合は対応必要かも
+
+### 3. アプリ名の変更
+
+    「アプリ名」で検索し正しいアプリ名に置換
+
+### 4. パッケージ名（bundle Id Application ID）の変更
+
+    「com.example.app」で検索し正しいパッケージ名に置換
+
+### 5. fvm の利用開始
+
+    以下を実行
+    % fvm use
+
+### 6. Github の設定
+
+    1. リポジトリを作成
+
+    2. リポジトリへの向き先を変更
+    % git remote set-url origin {new-url}
+
+    3. 確認
+    % git remote -v
+
+    4. コミットしてプッシュ
+
+### 7. .githubのテンプレートを更新
+
+### 8. READMEを更新
