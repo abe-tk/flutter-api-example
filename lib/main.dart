@@ -1,6 +1,10 @@
+import 'package:app/enum/flavor.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  // Flavor を取得し Logging
+  debugPrint('FLAVOR : ${flavor.name}');
+
   runApp(const MyApp());
 }
 
@@ -23,7 +27,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
