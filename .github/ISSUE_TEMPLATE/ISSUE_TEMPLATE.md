@@ -1,5 +1,5 @@
 ---
-name: 〇〇{プロジェクト名}-〇〇(番号)：〇〇したい・〇〇機能
+name: ISSUE TEMPLATE
 about: issueのテンプレート
 title: 〇〇{プロジェクト名}-〇〇(番号)：〇〇したい・〇〇機能
 labels: ''
