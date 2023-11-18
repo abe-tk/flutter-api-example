@@ -27,7 +27,7 @@ Flutter の雛形プロジェクト
 
 ### 4. パッケージ名（bundle Id Application ID）の変更
 
-    「com.example.app」で検索し正しいパッケージ名に置換
+    「com.flutterapiexample.app」で検索し正しいパッケージ名に置換
 
 ### 5. fvm の利用開始
 
