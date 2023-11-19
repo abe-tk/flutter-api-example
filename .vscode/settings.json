@@ -15,4 +15,8 @@
           "source.organizeImports": true,
       }
   },
+  "cSpell.words": [
+    "cupertino",
+    "riverpod"
+  ],
 }
